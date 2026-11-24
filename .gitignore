@@ -1,0 +1,23 @@
+# Maven: compiled classes, dependencies, test reports and temporary packaging files
+/target/
+
+# Application packages produced by jpackage
+/dist/
+
+# IDE compilation output and Java bytecode
+/out/
+*.class
+
+# IntelliJ IDEA local settings
+/.idea/
+*.iml
+*.ipr
+*.iws
+
+# Runtime logs and heap dumps
+*.log
+*.hprof
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
